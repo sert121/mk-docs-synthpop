@@ -13,11 +13,25 @@ theme: readthedocs
 
 nav:
   - Home: index.md
-  - About MkDocs: about-mkdocs.md
   - Tutorial:
-      - TL;DR: tutorial/tldr.md
-      - Installation: tutorial/installation.md
-      - Set up project: tutorial/setup-project.md
-      - Advanced: tutorial/advanced.md
+      - Getting Started: GS/Installation.md
+      - Configuration: GS/configuration.md
       - Usage: tutorial/usage.md
-      - Deploy: tutorial/deploy.md
+  - Generate Population:
+      - Run Pipeline : 
+        - Set Data Sources: GS/run-pipeline-1.md
+        - Preprocess Data: GS/run-pipeline-2.md
+        - IPU: GS/run-pipeline-3.md
+        - Add Features to the Base Population: GS/run-pipeline-4.md
+        - Results : GS/run-pipeline-5.md
+        - Adding Optional Attributes to the Base Population: GS/run-pipeline-6.md
+  - Files:
+      - Docs:
+        - synthpop.py : GS/synthpop.md
+        - IPU.py : GS/IPU.md
+        - age-height-weight.py : GS/AHW.md
+        - HlatHlongaddition.py : GS/latlong.md
+        - places.py : GS/Places.md
+        - population_density_sampler.py : GS/PDS.md
+      
+      

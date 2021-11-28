@@ -1,26 +1,43 @@
-# MkDocs Quickstart
->  Started template for a MkDocs docs site on GH Pages - including CI 
+# Synthpop
 
-[![Repo stars](https://img.shields.io/github/stars/MichaelCurrin/mkdocs-quickstart?style=social)](https://github.com/MichaelCurrin/mkdocs-quickstart)
+**Synthpop** is a Synthetic-Data-Generation framework which allows you to create synthetic data-sets. 
+The current framework is configured to support data generation on a district-level within India, but 
+can be modified to support other data-sets as well.
 
-Use the MkDocs (_make docs_) tool to create build a docs site around markdown docs.
+Pull requests are welcome at [Synthpop](github.com/sert121/bharatsim_v1).
 
-Follow the tutorial to add an existing project or create a project from scratch. The result will look like this project.
+<!-- 
+## Useful Resources
+- [mkdocs.org](https://www.mkdocs.org) homepage
+- [mkdocs/mkdocs ![Repo stars](https://img.shields.io/github/stars/mkdocs/mkdocs?style=social)](https://github.com/mkdocs/mkdocs)
+- [MkDocs Wiki](https://github.com/mkdocs/mkdocs/wiki) - covering themes, plugins, recipes and more.
+- [Release notes](https://www.mkdocs.org/about/release-notes/) for MkDocs.
+
+## Reasons to use MkDocs
+
+- Create an elegant, modern docs site for your project.
+- Create a static site and serve from GitHub Pages easily.
+- Low-code solution
+    - No need to write HTML or learn templating syntax needed
+    - Use your existing markdown files as content.
+    - Configure with a simple YAML file.
+- Customizable.
+    - Add custom HTML if you want.
+    - Plugins available.
+    - Flexible theme choices.
+- Includes search by default.
+- Broken links to files (including from your navbar) will be detected at build time and shown as warnings.
 
 
-## Features
-> How to use this project
+## Do I need to know Python?
 
-- **Follow the tutorial instructions**
-    - Install and configure a new or existing project.
-    - Run it locally.
-    - Deploy it.
-- **Add a copy of this project to your repos**
-    - [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?logo=github)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
-- **View the live demo**
-    - This site is hosted on GitHub Pages. See if you like it. Other themes are available - see the tutorial.
+MkDocs is built in Python (like Sphinx), but you don't have to write Python code. If you set up a [Deploy](deploy) flow right, you don't even have to set it up locally, though then you can't preview. -->
 
-
-The aim here is not be complete or explain all concepts. It is to provide a reference for common steps and choices needed when setting up a docs site, but still at a beginner-friendly level.
-
-This guide is based on the [mkdocs.org](https://www.mkdocs.org/) tutorial.
+## Project layout
+For more details on the project files see: [Files](GS/synthpop.md)  
+-`synthpop.py`   
+-`IPU.py`   
+-`age-height-weight.py`   
+-`HlatHlongaddition.py`   
+-`places.py`   
+-`population_density_sampler.py`   
