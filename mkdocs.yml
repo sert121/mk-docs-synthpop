@@ -1,12 +1,9 @@
 ### Site metadata ###
 
-site_name: MkDocs Quickstart
-site_description: Starter template for a MkDocs docs site on GH Pages - including CI
-site_url: https://michaelcurrin.github.io/mkdocs-quickstart/
+site_name: Synthpop
+site_description: Synthetic Data Generation Framework
 
-repo_url: https://github.com/MichaelCurrin/mkdocs-quickstart
-edit_uri: edit/master/docs/docs
-
+repo_url: https://github.com/sert121/mkdocs-synthpop
 ### Build settings ###
 
 theme: readthedocs
