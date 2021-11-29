@@ -37,13 +37,13 @@ admin_units_population_filename="path_to_file"
 ```
 Current Source for ward-wise population: [CensusGov](https://censusindia.gov.in/pca/pcadata/pca.html)
 
-To get ward wise geojsons, one can use either of the following sources:
+To get ward wise lat-long, one can use either of the following sources:
  
 `https://github.com/geopy/geopy`  
 `https://www.mapmyindia.com/api`  
 `https://developers.google.com/maps/documentation/geocoding/overview`  
 
-Next we would  merge the ward-wise population with the geojson data *(keeping Ward Name/no. as the unique key)*   
+Next we would  merge the ward-wise population with the lat-long data *(keeping Ward Name/no. as the unique key)*   
 
 **Sample Format**: 
 
